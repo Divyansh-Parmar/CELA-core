@@ -1,0 +1,15 @@
+[package]
+name = "lie-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lie-core = { path = "../core" }
+lie-runtime-llamacpp = { path = "../runtime-llamacpp" }
+lie-server = { path = "../server" }
+tokio = { version = "1.0", features = ["full"] }
+clap = { version = "4.4", features = ["derive"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+anyhow = "1.0"
+serde_json = "1.0"

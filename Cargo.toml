@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "crates/core",
+    "crates/server",
+    "crates/cli",
+    "crates/runtime-llamacpp",
+    "crates/ref-client",
+]
+resolver = "2"
+
+[profile.release]
+lto = true
+opt-level = 3
+codegen-units = 1

@@ -1,0 +1,26 @@
+# Rust build artifacts
+target/
+**/*.rs.bk
+
+# Models (Large files)
+models/
+*.gguf
+*.bin
+
+# Runtime data & logs
+memory.json
+*.log
+*.tmp
+
+# User test files
+test_input.txt
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
