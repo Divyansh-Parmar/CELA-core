@@ -41,6 +41,10 @@ cargo build --release
 ```
 
 ### 2. Download a Model
+You need to first create a folder named "models".
+```bash
+mkdir -p models
+```
 We provide a helper script to fetch a small test model (TinyLlama 1.1B):
 ```bash
 ./scripts/download_model.sh
