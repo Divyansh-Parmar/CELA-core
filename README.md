@@ -36,7 +36,7 @@ CELA is designed to be the "brain" of your local applications. It wraps high-per
 ### 1. Build
 ```bash
 git clone https://github.com/yourusername/cela.git
-cd cela
+cd CELA-core
 cargo build --release
 ```
 
